@@ -10,6 +10,6 @@ namespace Demo_ProductApp.Model
     {
         public int UserId { get; set; }
         public string Name { get; set; }
-        public string City
+        
     }
 }
