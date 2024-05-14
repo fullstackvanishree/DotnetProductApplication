@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Demo_ProductApp.Model
 {
-    internal class User
+    internal class Order
     {
-        public int UserId { get; set; }
-        public string Name { get; set; }
-        public string City { get; set; }
+        public int OrderId { get; set; }
+        public int ProductId { get; set; }
     }
 }
